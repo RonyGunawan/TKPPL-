@@ -9,13 +9,13 @@ Nih Petunjuk pake Git :
 
 4)  Tulis       : git config --global user.name "Isi dgn Nickname Github mu" 
 
-    Cth         : git config --global user.name "vinzchou"
+    Cth         : git config --global user.name "Degianz"
     
     Tulis       : git config --global user.email "Isi dgn email pas daftar Github mu"
    
-    Cth         : git config --global user.email "vinzchou88@gmail.com"
+    Cth         : git config --global user.email "giangenesisiusb@gmail.com"
     
-5)  Tulis       : git clone https://github.com/Py151112327/CalculatorRepo.git
+5)  Tulis       : git clone https://github.com/Py15112327/CalculatorRepo.git
 
 6)  Close Gitnya, Masuk ke folder CalculatorRepo klik kanan Pilih "Git Bash Here"
 
