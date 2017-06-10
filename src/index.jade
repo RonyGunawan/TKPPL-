@@ -3,27 +3,29 @@ html
   head
     meta(charset='utf-8')
     meta(name='viewport', content='width=device-width, initial-scale=1, maximum-scale=1')
-    title ular tangga 
+    title Ular tangga
 
-    link(rel='stylesheet', type='text/css', href='build/build.css')
+    
+	link(rel='stylesheet', type='text/css', href='main.css')
+	link(rel='script', type='text/javascript', href='main.js')
 
   body
 
     article
 
       section
-        h1 Ular tangga
+        h1 Ular tangga 
 
       section
-        h2tes permainan
-        h3 <a href="snake.html"></a>
+        h2 Keyboard Interaction
+        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-keys">bespoke-keys</a>
 
       section
-        h2 Contoh Quiz
+        h2 Touch Interaction
         h3 Powered by <a href="https://github.com/markdalgleish/bespoke-touch">bespoke-touch</a>
 
       section
-        
+        h2 Responsive Slides
         h3 Powered by <a href="https://github.com/markdalgleish/bespoke-scale">bespoke-scale</a>
 
       section
@@ -36,36 +38,11 @@ html
 
       section
         h2 Syntax Highlighting
-        h3 Powered by <a href="http://twitter.com/LeaVerou">Lea Verou</a>'s <a href="https://github.com/LeaVerou/prism">Prism</a>
-        pre
-          code.language-javascript.
-            bespoke.from('article', [
-              classes(),
-              keys(),
-              touch(),
-              bullets('li, .bullet')
-            ]);
-
+		
+        h3 
       section(data-bespoke-hash='named-route')
-        h2 Named Route
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-hash">bespoke-hash</a>
-        p Look up! This route has been named with a <em>'data-bespoke-hash'</em> attribute.
-
-      section.emphatic-text(data-bespoke-backdrop='emphatic')
-        h2 Emphatic Slide!
-        h3 Powered by <a href="https://github.com/markdalgleish/bespoke-backdrop">bespoke-backdrop</a>
-
-      section
-        h2.bullet Just the beginning...
-        br
-        ul
-          li Edit <a href="http://jade-lang.com/">Jade</a> markup in <em>'src/index.jade'</em>
-          li Edit <a href="http://learnboost.github.io/stylus/">Stylus</a> styles in <em>'src/styles/main.styl'</em>
-          li Edit JavaScript in <em>'src/scripts/main.js'</em>
-        br
-        ul
-          li
-            strong Enjoy! :)
-            a(href='http://twitter.com/markdalgleish')  -@markdalgleish
-
-    script(src='build/build.js')
+        h2 Contoh Permainan 
+  		h3 Simple Snake Game
+		canvas#stage(height='400', width='520')
+</a>
+     
